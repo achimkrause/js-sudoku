@@ -1,0 +1,51 @@
+#sudoku{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 450px;
+  padding: 0;
+}
+
+#sudoku>input{
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#sudoku>input.automatic{
+  color: #d0d0d0;
+}
+
+#sudoku>input.left{
+  width: 47px;
+  border-left: 2px solid black;
+}
+#sudoku>input.right{
+  width: 47px;
+  border-right: 2px solid black;
+}
+#sudoku>input.top{
+  height: 47px;
+  border-top: 2px solid black;
+}
+#sudoku>input.bottom{
+  height: 47px;
+  border-bottom: 2px solid black;
+}
+
+body{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#message{
+  font-size: 30px;
+}
